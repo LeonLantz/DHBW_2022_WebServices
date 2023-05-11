@@ -1,4 +1,21 @@
 # Webservice Client
+1. Neues **Console** Projekt anlegen
+2. Add ConnectedService, WCF Web Service
+3. Update Program.cs
+
+	    static async Task Main(string[] args)
+            {
+              Console.WriteLine("Hello, World!");
+
+              ServiceReference1.ReverseServiceClient client = new ServiceReference1.ReverseServiceClient();
+
+              string value = "Hello World";
+
+              string rev = await client.ReverseAsync(value);
+
+              Console.WriteLine($@"'{value}' written in reverse is {rev}");
+              Console.ReadLine();
+            }
 # GrpcServer
 
  1. Neues **ASP NET Core gRPC Service** Projekt anlegen
