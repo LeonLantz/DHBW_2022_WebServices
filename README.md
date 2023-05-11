@@ -91,9 +91,11 @@
 1. Namespaces
 2. Routes
 3. Siren URLs
-	{
-    "Street":"Erzbergerstrasse",
-    "ZipCode":"67123",
-    "City":"Karlsruhe",
-    "Country":"Germany"
-	}
+
+
+	   {
+         "Street":"Erzbergerstrasse",
+    	 "ZipCode":"67123",
+    	 "City":"Karlsruhe",
+    	 "Country":"Germany"
+	   }
