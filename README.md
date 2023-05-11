@@ -86,3 +86,12 @@
         Console.ReadLine();
 
 6. Testen
+
+#REST
+	
+	{
+    "Street":"Erzbergerstrasse",
+    "ZipCode":"67123",
+    "City":"Karlsruhe",
+    "Country":"Germany"
+	}
