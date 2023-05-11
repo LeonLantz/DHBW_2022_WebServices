@@ -5,14 +5,14 @@
 
 	   static async Task Main(string[] args)
        {
-       Console.WriteLine("Hello, World!");
-       ServiceReference1.ReverseServiceClient client = new ServiceReference1.ReverseServiceClient();
+         Console.WriteLine("Hello, World!");
+         ServiceReference1.ReverseServiceClient client = new ServiceReference1.ReverseServiceClient();
 
-       string value = "Hello World";
-       string rev = await client.ReverseAsync(value);
+         string value = "Hello World";
+         string rev = await client.ReverseAsync(value);
 
-       Console.WriteLine($@"'{value}' written in reverse is {rev}")
-       Console.ReadLine();
+         Console.WriteLine($@"'{value}' written in reverse is {rev}")
+         Console.ReadLine();
        }
 # GrpcServer
 
