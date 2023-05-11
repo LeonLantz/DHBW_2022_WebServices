@@ -87,8 +87,10 @@
 
 6. Testen
 
-#REST
-	
+# REST
+1. Namespaces
+2. Routes
+3. Siren URLs
 	{
     "Street":"Erzbergerstrasse",
     "ZipCode":"67123",
